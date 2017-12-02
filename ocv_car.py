@@ -40,5 +40,5 @@ while f==0:
 
 
 cv2.destroyAllWindows()
-re=http.request('GET',"generate_csv.php")
+re=http.request('GET',"http://localhost/generate_csv.php")
 print("hey")
